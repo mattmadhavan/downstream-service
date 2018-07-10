@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: sleuth-downstream-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: mattmadhavan
+Implementation-Vendor-Id: code-examples.spring-cloud
+Spring-Boot-Version: 2.0.0.RELEASE
+Main-Class: org.springframework.boot.loader.JarLauncher
+Start-Class: com.example.demo.DemoApplication
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/sleuth-downstream-service
+

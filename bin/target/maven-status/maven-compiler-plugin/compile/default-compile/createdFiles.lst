@@ -1,0 +1,10 @@
+com/example/demo/RequestLoggingFilterConfig.class
+com/example/demo/ErrorHandler.class
+com/example/demo/CustomerClient.class
+com/example/demo/FeignConfiguration.class
+com/example/demo/CustomerAndAddress.class
+com/example/demo/AddressClient.class
+com/example/demo/DemoApplication.class
+com/example/demo/Address.class
+com/example/demo/Customer.class
+com/example/demo/Controller.class

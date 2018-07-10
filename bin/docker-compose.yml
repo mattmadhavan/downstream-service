@@ -1,0 +1,21 @@
+version: "3"
+services:
+  sleuth-downstream-service:
+    image: springio/sleuth-downstream-service
+    networks:
+       - spring-cloud-network
+    ports:
+      - "8080:8080"
+    depends_on:
+        - sleuth-upstream-service
+    links:
+        - sleuth-upstream-service
+  sleuth-upstream-service:
+    image: springio/sleuth-upstream-service:latest
+    networks:
+       - spring-cloud-network
+    ports:
+      - "8081:8081"
+networks:
+  spring-cloud-network:
+    driver: bridge  
